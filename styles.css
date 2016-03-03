@@ -1,0 +1,110 @@
+body{
+	font-family: "Nunito";
+	font-weight: 700;
+	color: black;
+
+	background-color: aqua;
+	background-image: url('images/symphony.png');
+}
+
+
+h1, h2, h3 {
+	font-family: "Dancing Script";
+	color: blue;
+	text-align: center;
+	line-height: 45px;
+	letter-spacing: 1px;
+
+	font-size: 40px;
+}
+
+ul {
+	list-style-type: square;
+	margin: auto;
+	text-align: left;
+	width: 180px;
+}
+
+h1 strong {
+	color: green;
+
+}
+
+img.border {
+	border: 5px solid blue;
+}
+
+img.border2 {
+	border: 10px solid white;
+}
+
+
+h2.black {
+	color: black;
+}
+
+h3.white {
+	color: #ffffff;
+	font-size: 70px;
+
+}
+table,td {
+	border: 4px dotted purple;
+
+}
+table {
+	margin: 40px;
+}
+
+#main {
+	width:900px; 
+	margin: 20px auto;
+	background-color: #ffffff;
+
+}
+
+
+#header {
+	background-color: #FF0DFF; 
+	padding: 20px;
+	border: 10px solid #ff7070; 
+}
+
+#sidebar {
+	width:260px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	background-color: pink;
+	height: 800px;
+}
+#content {
+		width: 580px;
+		border-color: #ffffff;
+		float: right;
+		background-color: aqua;
+		padding: 10px;
+}
+	
+#footer {
+	clear:both;
+}
+
+#navigation a:link {
+	display: block;
+	font-size: 20px;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+#navigation a:visited {
+	color: #ffffff;
+}
+#navigation a:hover{
+	color: black;
+}
+#navigation a.active {
+	color: black;
+}
+
